@@ -1,5 +1,12 @@
 How to use  Git - GitHub/GitLab
 
+
+
+(Before push always pull first to syncronize otherwise there will be merge problems of files)
+
+
+
+
 steps : 
 
 touch. gitignore
@@ -20,6 +27,7 @@ git push origin master
 git status - to see the changes
 git add.
 git commit -m 'added new files'
+git pull origin master
 git push origin master
 
 
@@ -31,6 +39,7 @@ git clone https code paste here
 git status
 git add .
 git commit -m "added new file name"
+git pull origin master
 git push origin master
 # here user name $ personal token code
 
@@ -39,13 +48,15 @@ git push origin master
 
 #####-----------------how to clone a branch -------------------#####
 
-git clone -b splunkdata  https://github.com/nirob991995/Git.git 
+git clone -b branch_name  https://github.com/nirob991995/Git.git 
                          (<https code here>)
+# change or add if want
 
 git status
 git add .
 git commit -m "added new file name"
-git push origin splunkdata
+git pull origin branch_name
+git push origin branch_name
 
 
 
