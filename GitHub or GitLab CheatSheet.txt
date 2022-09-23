@@ -1,0 +1,107 @@
+How to use git 
+
+steps : 
+
+touch. gitignore
+git config --global user.name "Nirob"
+git config --global user.email "nirob991995@gmila.com"
+git init
+git add.
+git commit -m "Initial commit"
+git status # just to see clean work tree
+ssh-keygen -t ed25519 -C "nirob991995@gmail.com"
+# add this key to my ssh key in github setting ssh key 
+git remote add origin <ssh url.git # git@github.com:nirob991995/practice-git.git>
+
+git push origin master
+
+###### ------------------------------changes in files like adding or deleting-----------------------####
+
+git status - to see the changes
+git add.
+git commit -m 'added new files'
+git push origin master
+
+
+#####-----------------how to clone -------------------#####
+
+git clone https code paste here 
+# new files after update
+
+git status
+git add .
+git commit -m "added new file name"
+git push origin master
+# here user name $ personal token code
+
+
+
+
+#####-----------------how to clone a branch -------------------#####
+
+git clone -b splunkdata  https://github.com/nirob991995/Git.git 
+                         (<https code here>)
+
+git status
+git add .
+git commit -m "added new file name"
+git push origin splunkdata
+
+
+
+
+# --------added new branch -----------# 
+
+create new branch first directly from website
+clone the files from the master ( https code use here)
+added new files in the existing files 
+cd Git(folder name)-- to enter inside the dirctorey/foler 
+git branch ---it will show all the branch along with master branch
+git checkout new_branch--- we are selected as new_branch as our current branch where to push the files ( like selecting new_branch like before we were main branch)
+git status -- it will the modified/new  file
+
+git add .
+git commit -m "added new file name"
+git push origin new_branch
+
+
+
+#-------------how to delete a github/lab repository from local & remote --------------#
+
+
+
+**##### form local ######**
+
+first should be in master folder 
+
+git branch -d branch_name
+
+git status -- to check
+
+
+
+**##### remotely ######**
+
+first should be in master branch
+
+git branch -r or a --> to see all the branch
+
+git push origin :deleted_branch_name
+
+git status --> to check the status
+
+
+
+
+#-  --------how to send a merge request to manager/senior developer ------------#
+
+
+write in heading Draft:file_name  ---> Draft means we can edit/delete before final merge by manager 
+
+and other description to review according to work or task
+
+send to manage/sr. developer
+
+
+
+
