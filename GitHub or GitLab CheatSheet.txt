@@ -153,6 +153,10 @@ step3 : CASES-
 
 git remote add origin <https/ssh code>
 
+ls 
+touch  .gitignore ----> write files names those you want to ignore to upload in github present in this folder
+git init
+
 ---- repeat STEP A FROM CASE 2-----
 
 
