@@ -1,10 +1,7 @@
 How to use  Git - GitHub/GitLab
 
 
-
 (Before push always pull first to syncronize otherwise there will be merge problems of files)
-
-
 
 
 steps : 
@@ -157,35 +154,25 @@ ls
 touch  .gitignore ----> write files names those you want to ignore to upload in github present in this folder
 git init
 
----- repeat STEP A FROM CASE 2-----
+---- repeat STEP A from CASE 2-----
 
 
 ** CASE 2: **
 
 # first cheeck your account setup if not setup showing then PLEASE setup first
-
 # connect your machine/your laptop ---with repo using https/ssh code
 
 git remote add origin <https/ssh code>
 
-
-
 STEP A:
 
 ls
-
 git status
-
 git add .
-
 git status
-
 git commit -m "write any meaasage here"
-
 git status
-
-noting to commit - working tree clean
-
+        -----> noting to commit - working tree clean
 git push origin master
 
 
@@ -204,14 +191,9 @@ bonus : tips
 
 class repository -- > banti & ayan
 use or update by banti & ayan so usen  pull first then push
-
 Below Task privided by manager Eg. 
-
 write name & ID
-1.
-Banti & 1011
-
-2.
-Ayan & 2022
+1.Banti & 1011
+2.Ayan & 2022
 
 
