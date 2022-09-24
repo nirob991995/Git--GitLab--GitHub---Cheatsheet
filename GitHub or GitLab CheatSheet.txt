@@ -79,24 +79,21 @@ git push origin new_branch
 
 
 
-**##### form local ######**
+**##### delete form local ######**
 
 first should be in master folder 
 
 git branch -d branch_name
-
 git status -- to check
 
 
 
-**##### remotely ######**
+**##### delete from remotely ######**
 
 first should be in master branch
 
 git branch -r or a --> to see all the branch
-
 git push origin :deleted_branch_name
-
 git status --> to check the status
 
 
