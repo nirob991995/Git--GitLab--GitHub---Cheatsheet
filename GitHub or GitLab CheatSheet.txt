@@ -115,4 +115,99 @@ send to manage/sr. developer
 
 
 
+STANDARD APPROACH
+
+##########--------------------- How and When to use Git -Github/GitLab------------------------###########
+
+
+
+case 1----upload files in github for first time 
+
+case 2 ----update the already uploaded files in github
+
+case 3 ---- file already uploaded by someone else and i need to update that repository
+
+
+step 1:
+
+account setup: ( one time )
+
+git config --global uer.name "username"
+git config --global uer.email "your email"
+
+step 2:
+check your account setup:
+
+git config --global uer.name
+  --- username
+git config --global uer.email
+   ----youremail
+
+
+step3 : CASES-
+
+** CASE 1: **
+
+# first check your account setup if not setup showing then PLEASE setup first
+# connect your machine/your laptop ---with repository using https/ssh code
+
+git remote add origin <https/ssh code>
+
+---- repeat STEP A FROM CASE 2-----
+
+
+** CASE 2: **
+
+# first cheeck your account setup if not setup showing then PLEASE setup first
+
+# connect your machine/your laptop ---with repo using https/ssh code
+
+git remote add origin <https/ssh code>
+
+
+
+STEP A:
+
+ls
+
+git status
+
+git add .
+
+git status
+
+git commit -m "write any meaasage here"
+
+git status
+
+noting to commit - working tree clean
+
+git push origin master
+
+
+
+**  CASE 3 : **
+
+# first cheeck your account setup if not setup showing then setup first
+
+repeat STEP A from CASE 2 here
+
+
+
+##### Team work on single repo or project   ############
+
+bonus : tips 
+
+class repository -- > banti & ayan
+use or update by banti & ayan so usen  pull first then push
+
+Below Task privided by manager Eg. 
+
+write name & ID
+1.
+Banti & 1011
+
+2.
+Ayan & 2022
+
 
