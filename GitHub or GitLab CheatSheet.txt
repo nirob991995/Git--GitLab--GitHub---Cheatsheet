@@ -7,7 +7,7 @@ How to use  Git - GitHub/GitLab
 
 steps : 
 
-touch. gitignore
+touch  .gitignore
 git config --global user.name "Nirob"
 git config --global user.email "nirob991995@gmila.com"
 git init
@@ -26,6 +26,9 @@ git status - to see the changes
 git add.
 git commit -m 'added new files'
 git pull origin master
+git status
+git add .
+git status
 git push origin master
 
 
@@ -54,6 +57,9 @@ git status
 git add .
 git commit -m "added new file name"
 git pull origin branch_name
+git status
+git add . 
+git status 
 git push origin branch_name
 
 
@@ -188,7 +194,7 @@ repeat STEP A from CASE 2 here
 bonus : tips 
 
 class repository -- > banti & ayan
-use or update by banti & ayan so usen  pull first then push
+use or update by banti & ayan so use  pull first then push
 Below Task privided by manager Eg. 
 write name & ID
 1.Banti & 1011
