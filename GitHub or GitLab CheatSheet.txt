@@ -2,7 +2,7 @@
 How to use  Git - GitHub/GitLab
 
 
-(Before push always pull first to syncronize otherwise there will be merge problems of files)
+(Before push always pull first to syncronize otherwise there will be merge problems of files) specially working in team and one repository used & update everyone
 
 
 steps : 
