@@ -104,6 +104,26 @@ git status --> to check the status
 
 
 
+----------###  How to change repository url/https/ssh code or link  from Gitlab to Github or Gitlab to Gitlab or GitHub to Github ###------------
+
+Step 1: 
+
+git remote  -v 
+
+To check the current connected repository's url
+
+It will show 2 origin of current fetch and push
+
+Step 2: 
+
+git remote set-url origin <https code here >
+
+Step 3: 
+
+To check repeat step 1
+
+
+
 
 #-  --------how to send a merge request to manager/senior developer ------------#
 
