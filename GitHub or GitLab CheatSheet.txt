@@ -98,7 +98,7 @@ git status -- to check
 
 first should be in master branch
 
-git branch -r or a --> to see all the branch
+git branch -r or a --> to see all the remote branches
 git push origin :deleted_branch_name
 git status --> to check the status
 
