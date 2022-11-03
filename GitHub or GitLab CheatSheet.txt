@@ -220,3 +220,7 @@ write name & ID
 1.Banti & 1011
 2.Ayan & 2022
 
+
+######### Git merging problems #####
+git add .
+git commit -m 'done'
