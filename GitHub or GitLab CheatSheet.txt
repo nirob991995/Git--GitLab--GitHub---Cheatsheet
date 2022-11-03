@@ -224,3 +224,5 @@ write name & ID
 ######### Git merging problems #####
 git add .
 git commit -m 'done'
+
+
